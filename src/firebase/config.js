@@ -18,5 +18,6 @@ var firebaseConfig = {
   // Connect FireStore Database
 const projectStorage = firebase.storage();
 const projectFirestore = firebase.firestore();
+const timeStamp = firebase.firestore.FieldValue.serverTimestamp; // tipe data timestamp khusus dari firebase
 
-export { projectStorage, projectFirestore};
+export { projectStorage, projectFirestore, timeStamp};
