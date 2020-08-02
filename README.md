@@ -31,10 +31,12 @@ npm start
 # Package
 ```bash
 npm install --save firebase
+npm install --save framer-motion
 ```
 
 # Helper
 - [Firebase](https://firebase.google.com/?hl=id)
+- [Framer Motion for React](https://www.framer.com/motion/)
  
 # Reference
 - [Youtube: Traversy Media](https://www.youtube.com/watch?v=vUe91uOx7R0)
