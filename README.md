@@ -25,6 +25,19 @@ And run with
 npm start
 ```
 
+# ENV
+make .env file
+```bash
+
+REACT_APP_APIKEY_FIREBASE=YOUR_APIKEY
+REACT_APP_AUTHDOMAIN_FIREBASE=YOUR_AUTHDOMAIN 
+REACT_APP_DATABASEURL_FIREBASE=YOUR_DATABASEURL
+REACT_APP_PROJECTID_FIREBASE=YOUR_PROJECTID
+REACT_APP_STORAGEBUCKET_FIREBASE=YOUR_STORAGEBUCKET
+REACT_APP_MESSAGINGSENDERID_FIREBASE=YOUR_MESSAGINGSENDERID
+REACT_APP_APPID_FIREBASE=YOUR_APPID
+```
+
 # Deploy
 - [If you error this is solution first deploy because CI build configuration](https://community.netlify.com/t/new-ci-true-build-configuration-treating-warnings-as-errors-because-process-env-ci-true/14434)
 

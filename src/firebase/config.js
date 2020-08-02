@@ -4,13 +4,13 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAaVvF6D_UfmM8xSJ1wc1FHR4q5xHrnUf8",
-    authDomain: "tria-firegram.firebaseapp.com",
-    databaseURL: "https://tria-firegram.firebaseio.com",
-    projectId: "tria-firegram",
-    storageBucket: "tria-firegram.appspot.com",
-    messagingSenderId: "986095413534",
-    appId: "1:986095413534:web:f5a65d689546bd2665810f"
+    apiKey: process.env.REACT_APP_APIKEY_FIREBASE,
+    authDomain: process.env.REACT_APP_AUTHDOMAIN_FIREBASE,
+    databaseURL: process.env.REACT_APP_DATABASEURL_FIREBASE,
+    projectId: process.env.REACT_APP_PROJECTID_FIREBASE,
+    storageBucket: process.env.REACT_APP_STORAGEBUCKET_FIREBASE,
+    messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID_FIREBASE,
+    appId: process.env.REACT_APP_APPID_FIREBASE
   };
   // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
